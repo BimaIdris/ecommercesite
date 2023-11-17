@@ -1,4 +1,5 @@
-Django
+**Django**
+
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Thanks for checking it out.
 
 All documentation is in the "docs" directory and online at https://docs.djangoproject.com/en/stable/. If you're just getting started, here's how we recommend you read the docs:
@@ -10,7 +11,7 @@ You'll probably want to read through the topical guides (in docs/topics) next; f
 See docs/README for instructions on building an HTML version of the docs.
 Docs are updated rigorously. If you find any problems in the docs, or think they should be clarified in any way, please take 30 seconds to fill out a ticket here: https://code.djangoproject.com/newticket
 
-To get more help:
+**To get more help:**
 
 Join the #django channel on irc.libera.chat. Lots of helpful people hang out there. Webchat is available.
 Join the django-users mailing list, or read the archives, at https://groups.google.com/group/django-users.
