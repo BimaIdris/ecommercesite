@@ -22,3 +22,12 @@ def register_view(request):
         'form': form,
     }
     return render(request, 'userauths/register.html',context)
+
+
+def login_view(request):
+    if request.user.is_authenticated():
+        return redirect('coreurls:index')
+    if request.method == 'POST':
+        email=request.POST.get('email')
+        password=request.POST.get('password')
+
