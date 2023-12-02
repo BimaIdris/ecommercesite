@@ -6,4 +6,5 @@ app_name='userauths'
 urlpatterns=[
     path("register/",views.register_view,name="register"),
     path("sign-in/",views.login_view,name="sign-in"),
+    path("sign-out/",views.logout_view,name="sign-out"),
 ]
